@@ -19,12 +19,19 @@ Some profiles might not have all information because users dropped off in betwee
 swipes.csv - Dataset of ~60k swipes by profiles.
   
   id - Primary ID of the swipe or match
+  
   p1 - Primary ID of the first person performing the swipe. If A swipes B then p1 is A
+  
   p2 - Primary ID of the person who was swiped by p1. If A swipes B then p2 is B
+  
   first_type - LIKE or DISLIKE performed by p1
+  
   is_unmatch - If the match was unmatched by any user.
+  
   unmatch_on - Timestamp of unmatch
+  
   like_count - 1 if single swipe is done. 2 if both have swiped each other
+  
   second_type - LIKE or DISLIKE performed by p2 (Only present if like_count is 2) and 2nd user performed the action.
   
   p1_extend_at and p2_extend_at are irrelevant. 
