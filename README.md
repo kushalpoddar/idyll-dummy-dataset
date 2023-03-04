@@ -13,6 +13,8 @@ users.csv - Dataset of ~ 1400 users with parameters which can be self understood
   face_detection_probabilities - Can be ignored.
   
   who_to_date - F (Female), M (Male), A (Anyone)
+
+  is_subscribed - Subscribed to paid plan or not
   
 Some profiles might not have all information because users dropped off in between. The email ids and mobile numbers are masked and generated automatically to preserve their real identity.
 
